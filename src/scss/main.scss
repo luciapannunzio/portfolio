@@ -3,3 +3,6 @@
 @import "./base/_base-dir";
 @import "./components/_components-dir";
 @import "./layouts/_layouts-dir";
+* {
+  box-sizing: border-box;
+}
