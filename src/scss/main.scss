@@ -36,6 +36,10 @@ body {
    padding: 30px;
    display: flex;
    flex-direction: column;
+  .about a {
+    display: flex;
+    justify-content: flex-end;
+  }
   .flexbox-content {
    display: flex;
    justify-content: center;
