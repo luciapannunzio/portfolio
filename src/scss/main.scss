@@ -27,7 +27,7 @@ body {
   background-color: $background-right;
 }
 .flexbox-container {
-   width: 100wv;
+   width: 100vw;
    height: 100vh;
    display: flex;
    flex-direction: row;
@@ -52,7 +52,7 @@ body {
  }
 }
 .container-program {
-  width: 100wv;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -63,8 +63,7 @@ body {
    display: flex;
    flex-direction: column;
    .about a {
-    display: flex;
-    justify-content: flex-end;
+    float: right;
   }
  }
  .screen {
@@ -86,19 +85,18 @@ body {
   align-items: center;
 }
 .container-photo {
-  width: 100wv;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: $second-back-right;
   .flexbox-content {
-   width: 100vw;
-   padding: 30px;
-   display: flex;
-   flex-direction: column;
-   .about a {
+    width: 100vw;
+    padding: 30px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    .about a {
+     float: right;
   }
  }
 .photo {
@@ -118,4 +116,33 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.container-about {
+  width: 100vw;
+  height: 100vh;
+  background-color: $background-left;
+  .nav {
+    width: 100vw;
+    padding: 30px;
+    .about a {
+      float: right;
+    }
+  }
+  .image img {
+    width: 350px;
+    height: 480px;
+    display: block;
+    margin: auto;
+  }
+  .text, a {
+    font-size: 16px;
+    font-family: $font-principal;
+    font-weight:600;
+    color: $text-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    line-height: 20px;
+    text-align: center;
+  }
 }
