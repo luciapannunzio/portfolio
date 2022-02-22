@@ -18,6 +18,12 @@ body {
   color: $text-color;
   text-decoration: none;
 }
+.flexbox-container>div:first-child {
+  background-color: $background-left;
+}
+.flexbox-container>div:last-child {
+  background-color:$background-right;
+}
 .flexbox-container {
    width: 100wv;
    height: 100vh;
@@ -28,9 +34,5 @@ body {
    padding: 30px;
    display: flex;
    flex-direction: column;
-   background-color: palevioletred;
- #programming {
-   
-  }
  }
 }
