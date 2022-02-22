@@ -18,4 +18,19 @@ body {
   color: $text-color;
   text-decoration: none;
 }
-
+.flexbox-container {
+   width: 100wv;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+ .flexbox-column {
+   width: 100vw;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   background-color: palevioletred;
+ #programming {
+   
+  }
+ }
+}
