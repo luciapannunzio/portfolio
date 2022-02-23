@@ -110,11 +110,13 @@ body {
   font-family: $font-principal;
   font-weight:600;
   color: $text-color;
-  text-decoration: none;
   letter-spacing: 1.8px;
   line-height: 20px;
   justify-content: center;
   text-align: center;
+}
+.info a:hover {
+  color: $background-left;
 }
 h1 {
   font-size: 22px;
@@ -239,6 +241,7 @@ h1 {
         display: inline-block;
         width: 20px;
         height: 20px;
+        font-size: 13px;
         font-family: $font-principal;
         color: $text-color;
         text-decoration: none;
@@ -246,9 +249,6 @@ h1 {
     }
   }
 }
-
-
-
 .container-about {
   width: 100vw;
   height: 100vh;
