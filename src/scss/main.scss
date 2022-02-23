@@ -84,6 +84,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.screenshots a:hover {
+  color: $background-left;
+}
 .img-screen img {
   width: 850px;
   height: auto;
@@ -136,6 +139,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.pictures a:hover {
+  color: $background-right;
 }
 .container-about {
   width: 100vw;
