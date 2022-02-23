@@ -134,6 +134,7 @@ h1 {
   background-color: $second-back-right;
   .flexbox-content {
     width: 100vw;
+    height: auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -147,7 +148,7 @@ h1 {
   align-items: center;
   .pho {
     margin-top: 2rem;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
   }
  }
 }
