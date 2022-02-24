@@ -110,7 +110,8 @@ body {
   height: fit-content;
   margin: auto;
 }
-.info, p {
+.info {
+  p {
   font-size: 12px;
   font-family: $font-principal;
   font-weight:600;
@@ -119,9 +120,12 @@ body {
   line-height: 20px;
   justify-content: center;
   text-align: center;
+  }
 }
-.info a:hover {
-  color: $background-left;
+.info {
+  a:hover {
+    color: $background-left;
+  }
 }
 h1 {
   font-size: 22px;
@@ -269,6 +273,10 @@ h1 {
     width: 350px;
     height: auto;
     display: block;
+    margin: auto;
+  }
+  .text {
+    width: 50vw;
     margin: auto;
   }
   .text, a {
