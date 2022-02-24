@@ -252,12 +252,20 @@ h1 {
         height: 20px;
         font-size: 13px;
         font-family: $font-principal;
-        color: $text-color;
+        color: black;
         text-decoration: none;
       }
     }
   }
 }
+.menu1 { 
+  li { 
+   a:active {
+    color: $background-left;
+  }
+ }
+}
+
 .container-about {
   width: 100vw;
   height: 100vh;
@@ -275,11 +283,9 @@ h1 {
     display: block;
     margin: auto;
   }
-  .text {
-    width: 50vw;
-    margin: auto;
-  }
   .text, a {
+    width: fit-content;
+    margin: auto;
     font-size: 16px;
     font-family: $font-principal;
     font-weight:600;
