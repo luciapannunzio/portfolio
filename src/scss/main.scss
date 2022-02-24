@@ -258,14 +258,16 @@ h1 {
     }
   }
 }
-.menu1 { 
-  li { 
-   a:active {
-    color: $background-left;
+.container-photo { 
+ .menu1 { 
+   li { 
+    a:active {
+     color: transparent;
+     text-shadow: 0 0 $background-left;
+   }
   }
  }
 }
-
 .container-about {
   width: 100vw;
   height: 100vh;
