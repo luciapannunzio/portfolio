@@ -22,12 +22,14 @@ body {
   line-height: 17px;
  }
 }
+// First page
 .flexbox-container>div:first-child {
   background-color: $background-left;
 }
 .flexbox-container>div:last-child {
   background-color: $background-right;
 }
+// Nav
 .flexbox-container {
    width: 100vw;
    height: 100vh;
@@ -54,12 +56,14 @@ body {
   }
  }
 }
+// Hover
 #programming a:hover {
   color: $background-right;
 }
 #photography a:hover {
   color:$background-left;
 }
+// Programming pages
 .container-program {
   width: 100vw;
   height: 100vh;
@@ -146,6 +150,7 @@ h1 {
   justify-content: center;
   text-align: center;
 }
+// Photography pages
 .container-photo {
   width: 100vw;
   height: auto;
@@ -203,6 +208,7 @@ h1 {
    }
   }
 }
+// Slider
 .container-photo {
   ul.slider {
     position: relative;
@@ -285,6 +291,7 @@ h1 {
   }
  }
 }
+// About
 .container-about {
   width: 100vw;
   height: 100vh;
