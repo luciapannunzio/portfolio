@@ -163,7 +163,7 @@ h1 {
 }
 .container-photo .flexbox-content {
   width: 100vw;
-  height: auto;
+  height: fit-content;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -172,6 +172,7 @@ h1 {
   float: right;
 }
 .container-photo .photo {
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,8 +202,9 @@ h1 {
 .container-photo {
   width: 100vw;
   height: fit-content;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-photo .flexbox-content {
   width: 100vw;
@@ -216,13 +218,14 @@ h1 {
 
 .container-photo ul.slider {
   position: relative;
-  width: 1200px;
-  height: 700px;
+  width: 65vw;
+  height: 74vh;
+  left: 20rem;
 }
 
 .container-photo ul.slider li {
   position: absolute;
-  left: 250px;
+  left: 0px;
   top: 0px;
   opacity: 0;
   width: inherit;
@@ -231,10 +234,8 @@ h1 {
 }
 
 .container-photo ul.slider li img {
-  width: 1200px;
-  height: 675px;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 65vw;
+  height: 74vh;
   object-fit: cover;
 }
 
