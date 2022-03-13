@@ -327,22 +327,51 @@ h1 {
     color: $background-right;
   }
 }
-// mobile version
+// Mobile Version
 /* Small devices (portrait tablets & large phones 600px and up) */
 @media only screen and (min-width: 600px) {
-  {
-  
+  .container-photo {
+    ul.slider img {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      right: 12rem;
+      border: 2px purple solid;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container-photo {
+    ul.slider img {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      right: 12rem;
+      border: 2px red solid;
+    }
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  {
-  
-  }
+  .container-photo {
+    ul.slider img {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      right: 12rem;
+      border: 2px green solid;
+    }
+  } 
 }
 /* Larges devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  {
-  
+  .container-photo {
+    ul.slider img {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      right: 12rem;
+      border: 2px blue solid;
+    }
   }
 }
