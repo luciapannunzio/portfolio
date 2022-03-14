@@ -326,7 +326,6 @@ h1 {
       width: 100vw;
       height: 74vh;
       right: 50%;
-      border: 2px red solid;
     }
   }
 }
@@ -338,7 +337,6 @@ h1 {
       width: 100vw;
       height: 74vh;
       right: 25%;
-      border: 2px green solid;
     }
   } 
 }
@@ -349,8 +347,18 @@ h1 {
       position: relative;
       width: 100vw;
       height: 74vh;
+      right: 2%;
+    }
+  }
+}
+/* Larges devices (desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .container-photo {
+    ul.slider img {
+      position: relative;
+      width: 100vw;
+      height: 74vh;
       right: 15%;
-      border: 2px blue solid;
     }
   }
 }
