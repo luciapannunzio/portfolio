@@ -370,8 +370,19 @@ h1 {
       position: relative;
       width: 100vw;
       height: 100vh;
-      right: 1rem;
+      right: 0.9rem;
       border: 2px blue solid;
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container-photo {
+    ul.slider img {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      right: 6rem;
+      border: 2px black solid;
     }
   }
 }
