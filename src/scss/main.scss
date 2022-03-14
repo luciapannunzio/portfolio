@@ -192,13 +192,14 @@ h1 {
 .pictures a:hover {
   color: $background-right;
 }
-.container-photo {
+// Slider
+.photo-container {
   width: 100vw;
   height: fit-content;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  .flexbox-content {
+  .flexbox-pictures{
     width: 100vw;
     height: auto;
   }
@@ -207,11 +208,11 @@ h1 {
     padding: 0;
     margin: 0;
     list-style: none;
+    border: 2px pink solid;
    }
   }
 }
-// Slider
-.container-photo {
+.photo-container {
   ul.slider {
     position: relative;
     width: 65vw;
@@ -219,7 +220,7 @@ h1 {
     left: 20rem;
   }
 }
-.container-photo {
+.photo-container {
   ul.slider {
     li {
       position: absolute;
@@ -232,7 +233,7 @@ h1 {
     }
   }
 }
-.container-photo {
+.photo-container {
   ul.slider {
     li {
       img {
@@ -243,23 +244,23 @@ h1 {
     }
   }
 }
-.container-photo {
+.photo-container {
   ul.slider li:first-child {
    opacity: 1;
   }
 }
-.container-photo {
+.photo-container {
   ul.slider li:target {
     opacity: 1;
   }
 }
-.container-photo {
+.photo-container {
   .menu1 {
     text-align: center;
     margin: 20px;
   }
 }
-.container-photo {
+.photo-container {
   .menu1 {
     li {
       display: inline-block;
@@ -267,7 +268,7 @@ h1 {
     }
   }
 }
-.container-photo {
+.photo-container {
   .menu1 {
     li {
       a {
@@ -282,7 +283,7 @@ h1 {
     }
   }
 }
-.container-photo { 
+.photo-container{ 
  .menu1 { 
    li { 
     a:active {
@@ -341,7 +342,7 @@ h1 {
 //   }
 // }
 @media only screen and (max-width: 600px) {
-  .container-photo {
+  .photo-container {
     ul.slider img {
       position: relative;
       width: 100vw;
@@ -353,7 +354,7 @@ h1 {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .container-photo {
+  .photo-container {
     ul.slider img {
       position: relative;
       width: 100vw;
@@ -365,7 +366,7 @@ h1 {
 }
 /* Larges devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .container-photo {
+  .photo-container{
     ul.slider img {
       position: relative;
       width: 100vw;
