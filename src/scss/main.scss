@@ -154,7 +154,7 @@ h1 {
 .container-photo {
   width: 100vw;
   height: auto;
-  display: flex;
+  display: block;
   flex-direction: column;
   background-color: $second-back-right;
   .flexbox-content {
@@ -193,26 +193,25 @@ h1 {
   color: $background-right;
 }
 // Slider
-.photo-container {
+.container-photo {
   width: 100vw;
-  height: fit-content;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  .flexbox-pictures{
+  .flexbox-content {
     width: 100vw;
-    height: auto;
+    height: fit-content;
   }
   ul {
    li {
     padding: 0;
     margin: 0;
     list-style: none;
-    border: 2px pink solid;
    }
   }
 }
-.photo-container {
+.container-photo {
   ul.slider {
     position: relative;
     width: 65vw;
@@ -220,7 +219,7 @@ h1 {
     left: 20rem;
   }
 }
-.photo-container {
+.container-photo {
   ul.slider {
     li {
       position: absolute;
@@ -233,7 +232,7 @@ h1 {
     }
   }
 }
-.photo-container {
+.container-photo {
   ul.slider {
     li {
       img {
@@ -244,23 +243,23 @@ h1 {
     }
   }
 }
-.photo-container {
+.container-photo {
   ul.slider li:first-child {
    opacity: 1;
   }
 }
-.photo-container {
+.container-photo {
   ul.slider li:target {
     opacity: 1;
   }
 }
-.photo-container {
+.container-photo {
   .menu1 {
     text-align: center;
     margin: 20px;
   }
 }
-.photo-container {
+.container-photo {
   .menu1 {
     li {
       display: inline-block;
@@ -268,7 +267,7 @@ h1 {
     }
   }
 }
-.photo-container {
+.container-photo {
   .menu1 {
     li {
       a {
@@ -283,7 +282,7 @@ h1 {
     }
   }
 }
-.photo-container{ 
+.container-photo { 
  .menu1 { 
    li { 
     a:active {
@@ -342,7 +341,7 @@ h1 {
 //   }
 // }
 @media only screen and (max-width: 600px) {
-  .photo-container {
+  .container-photo {
     ul.slider img {
       position: relative;
       width: 100vw;
@@ -354,7 +353,7 @@ h1 {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .photo-container {
+  .container-photo {
     ul.slider img {
       position: relative;
       width: 100vw;
@@ -366,7 +365,7 @@ h1 {
 }
 /* Larges devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .photo-container{
+  .container-photo {
     ul.slider img {
       position: relative;
       width: 100vw;
