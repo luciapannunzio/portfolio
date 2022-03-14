@@ -319,13 +319,13 @@ h1 {
 }
 // Mobile Version
 /* Small devices (portrait tablets & large phones 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .container-photo {
     ul.slider img {
       position: relative;
       width: 100vw;
       height: 74vh;
-      right: 12rem;
+      right: 50%;
       border: 2px red solid;
     }
   }
@@ -337,7 +337,7 @@ h1 {
       position: relative;
       width: 100vw;
       height: 74vh;
-      right: 10rem;
+      right: 25%;
       border: 2px green solid;
     }
   } 
@@ -349,7 +349,7 @@ h1 {
       position: relative;
       width: 100vw;
       height: 74vh;
-      right: 0.9rem;
+      right: 15%;
       border: 2px blue solid;
     }
   }
