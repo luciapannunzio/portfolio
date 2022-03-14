@@ -329,17 +329,17 @@ h1 {
 }
 // Mobile Version
 /* Small devices (portrait tablets & large phones 600px and up) */
-@media only screen and (min-width: 600px) {
-  .container-photo {
-    ul.slider img {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      right: 12rem;
-      border: 2px purple solid;
-    }
-  }
-}
+// @media only screen and (min-width: 600px) {
+//   .container-photo {
+//     ul.slider img {
+//       position: relative;
+//       width: 100vw;
+//       height: 100vh;
+//       right: 12rem;
+//       border: 2px purple solid;
+//     }
+//   }
+// }
 @media only screen and (max-width: 600px) {
   .container-photo {
     ul.slider img {
@@ -375,14 +375,14 @@ h1 {
     }
   }
 }
-@media only screen and (max-width: 992px) {
-  .container-photo {
-    ul.slider img {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      right: 6rem;
-      border: 2px black solid;
-    }
-  }
-}
+// @media only screen and (max-width: 992px) {
+//   .container-photo {
+//     ul.slider img {
+//       position: relative;
+//       width: 100vw;
+//       height: 100vh;
+//       right: 10rem;
+//       border: 2px black solid;
+//     }
+//   }
+// }
