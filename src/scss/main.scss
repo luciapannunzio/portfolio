@@ -364,39 +364,38 @@ h1 {
 }
 // Mobile Version Programming projects
 /* Small devices (portrait tablets & large phones 600px and up) */
-@media only screen and (min-width: 600px) {
-  .container-program {
-    width: 100vw;
-    height: fit-content;
-  }
-  .img-screen img {
-    width: 95%;
-    height: fit-content;
-  }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .container-program {
-    width: 100vw;
-    height: fit-content;
-  }
-  .img-screen img {
-    width: 95%;
-    height: fit-content;
-    border: 2px red solid;
-  }
-}
-/* Larges devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .container-program {
-    width: 100vw;
-    height: fit-content;
-  }
-}
-/* Larges devices (desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
-  .container-program {
-      width: 100vw;
-      height: fit-content;
-  }
-}
+// @media only screen and (min-width: 600px) {
+//   .container-program {
+//     width: 100vw;
+//     height: fit-content;
+//   }
+//   .img-screen img {
+//     width: 95%;
+//     height: fit-content;
+//   }
+// }
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px) {
+//   .container-program {
+//     width: 100vw;
+//     height: fit-content;
+//   }
+//   .img-screen img {
+//     width: 95%;
+//     height: fit-content;
+//   }
+// }
+// /* Larges devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//   .container-program {
+//     width: 100vw;
+//     height: fit-content;
+//   }
+// }
+// /* Larges devices (desktops, 1200px and up) */
+// @media only screen and (max-width: 1200px) {
+//   .container-program {
+//       width: 100vw;
+//       height: fit-content;
+//   }
+// }
