@@ -71,8 +71,6 @@ body a {
   background-color: #f4ecfd;
 }
 .container-program .flexbox-content {
-  width: 100vw;
-  height: fit-content;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -97,7 +95,7 @@ body a {
 
 .screenshots a {
   width: 100vw;
-  height: 10vh;
+  height: 12vh;
   font-size: 32px;
   display: flex;
   flex-direction: column;
@@ -114,7 +112,7 @@ body a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0.1rem;
+  margin-bottom: auto;
 }
 
 .info {
@@ -156,7 +154,7 @@ h1 {
 
 .container-photo {
   width: 100vw;
-  height: auto;
+  height: fit-content;
   display: block;
   flex-direction: column;
   background-color: #f8fbed;
@@ -212,7 +210,7 @@ h1 {
   position: relative;
   width: 65vw;
   height: 74vh;
-  left: 20rem;
+  left: 17%;
 }
 
 .container-photo ul.slider li {
@@ -305,7 +303,7 @@ h1 {
     position: relative;
     width: 100vw;
     height: 74vh;
-    right: 50%;
+    left: 1%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -323,7 +321,7 @@ h1 {
     position: relative;
     width: 100vw;
     height: 74vh;
-    right: 2%;
+    right: 5%;
   }
 }
 /* Larges devices (desktops, 1200px and up) */
