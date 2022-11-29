@@ -3,6 +3,9 @@
 @import "./base/_base-dir";
 @import "./components/_components-dir";
 @import "./layouts/_layouts-dir";
+html {
+  min-height: 100%;
+}
 * {
   box-sizing: border-box;
 }
